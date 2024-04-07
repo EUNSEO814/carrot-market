@@ -1,23 +1,26 @@
-import CodeChallenge from "./learnTailwind/CodeChallenge";
-import CodeChallenge2 from "./learnTailwind/CodeChallenge2";
-import FormCSS from "./learnTailwind/FormCSS";
-import GroupModifiers from "./learnTailwind/GroupModifiers";
-import Input from "./learnTailwind/Input";
-import ListAndAnimation from "./learnTailwind/ListAndAnimation";
-import StateModifiers from "./learnTailwind/StateModifiers";
+import Link from "next/link";
+import CodeChallenge3 from "./learnTailwind/CodeChallenge3";
 
 export default function Home() {
   return (
-    // responsive
-    // <main className="bg-gray-100 h-screen flex items-center justify-center p-5 sm:bg-red-100 md:bg-green-100 lg:bg-blue-100 xl:bg-orange-100 2xl:bg-purple-100 ">
-    // <main className="bg-gray-100 h-screen flex items-center justify-center p-5">
-    <main className="flex h-screen justify-center items-center bg-[#EE6F3A]">
-      {/* <Input /> */}
-      {/* <FormCSS /> */}
-      {/* <StateModifiers /> */}
-      {/* <ListAndAnimation /> */}
-      {/* <GroupModifiers /> */}
-      <CodeChallenge2 />
-    </main>
+    // <div className="flex flex-col items-center justify-between min-h-screen p-6">
+    //   <div className="my-auto flex flex-col items-center gap-2 *:font-medium">
+    //     <span className="text-9xl">🥕</span>
+    //     <h1 className="text-4xl">당근</h1>
+    //     <h2 className="text-2xl">당근 마켓에 어서오세요!</h2>
+    //   </div>
+    //   <div className=" w-full flex flex-col items-center gap-3">
+    //     <Link href="/create-account" className="primary-btn text-lg py-2.5">
+    //       시작하기
+    //     </Link>
+    //     <div className="flex gap-2">
+    //       <span>이미 계정이 있나요?</span>
+    //       <Link href="/login" className="hover:underline">
+    //         로그인
+    //       </Link>
+    //     </div>
+    //   </div>
+    // </div>
+    <CodeChallenge3 />
   );
 }
